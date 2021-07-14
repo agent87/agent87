@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/redcolor.css" />
+  
+    <!-- Live Style Switcher Color -->
+    <link rel="stylesheet" class="alternate-style" title="pink" href="css/redcolor.css" disabled/>
+    <link rel="stylesheet" class="alternate-style" title="green" href="css/greencolor.css" disabled/>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/yellowcolor.css" disabled/>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="css/orangecolor.css" disabled/>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="css/bluecolor.css" />
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="main-conteiner">
+      <!-- Aside -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#">AGENT87</a>
+        </div>
+        <!-- Nav Toggler -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <!-- Nav -->
+        <ul class="nav">
+          <li>
+            <a href="https://agent87.github.io/?#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="https://agent87.github.io/?#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="https://agent87.github.io/?#services"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="https://agent87.github.io/?#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="https://agent87.github.io/?#blog"><i class="fa fa-envelope"></i>Blog</a>
+          </li>
+          <li>
+            <a href="https://agent87.github.io/?#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+        <!-- End Nav -->
+        <!-- Copyright -->
+        <div class="copyright-text">&copy; Kayonga Arnaud 2021</div>
+        <!-- End Copyright -->
+      </div>
+      <!-- End Aside -->
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Blog Section -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title ">
+                <h2>Django Based Car Parking Managment Dashboard</h2>
+              </div>
+            </div>
+            <div class="row p-0">
+              <div class="about-content pl-15">
+                <div class="row">
+                  <div class="about-text ">
+                    <h3>A Simple but responsive Dashboard for managing parking fees</h3>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Dolorum, soluta harum quidem commodi magnam autem adipisci
+                      distinctio nostrum corporis sunt aliquid id debitis
+                      sapiente deleniti architecto assumenda error, sed ipsum.
+                      sapiente deleniti architecto assumenda error, sed ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Blog Section -->
+
+      </div>
+      <!-- End Main Content -->
+    </div>
+    <!-- End Main Container -->
+
+    <!-- Lighbox -->
+    <div class="lightbox">
+      <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img src="images/1.png" class="lightbox-img" alt="">
+        <div class="lightbox-caption">
+          <div class="caption-text">Web Design</div>
+          <div class="caption-counter">1 of 6</div>
+        </div>
+      </div>
+      <div class="lightbox-controls">
+        <div class="next" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+        <div class="prev" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+      </div>
+    </div>
+    <!-- End Lighbox -->
+
+    <!-- Live Style Switcher Color -->
+    <div class="style-switcher">
+
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+
+      <h5>Style Switcher</h5>
+      <ul>
+        <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+        <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+        <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
+        <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
+        <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
+      </ul>
+
+      <h5>Body Skin</h5>
+      <label>
+        <input type="radio" name="body-style" class="body-skin" value="light" checked="true"> Light
+      </label>
+      <label>
+        <input type="radio" name="body-style" class="body-skin" value="dark"> Dark
+      </label>
+    </div>
+    <!-- End Live Style Switcher Color -->
+
+
+    <!-- Template Js -->
+    <script src="js/style.js"></script>
+    <!-- Style Switcher -->
+    <script src="js/styleSwitcher.js"></script>
+  </body>
+</html>
