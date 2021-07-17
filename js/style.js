@@ -74,7 +74,6 @@ function changeItem() {
     "h4"
   ).innerHTML;
   lightboxCounter.innerHTML = itemIndex + 1 + " of " + totalPortfolioItem;
-  console.log("Image Berhasil Ditampilkan");
 }
 
 // Close Lightbox
