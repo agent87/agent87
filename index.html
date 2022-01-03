@@ -1,590 +1,711 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portofolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bluecolor.css" />
-    
-    <!-- Live Style Switcher Color -->
-    <link rel="stylesheet" class="alternate-style" title="pink" href="css/redcolor.css" disabled/>
-    <link rel="stylesheet" class="alternate-style" title="green" href="css/greencolor.css" disabled/>
-    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/yellowcolor.css" disabled/>
-    <link rel="stylesheet" class="alternate-style" title="orange" href="css/orangecolor.css" disabled/>
-    <link rel="stylesheet" class="alternate-style" title="blue" href="css/bluecolor.css" />
-    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
-
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+  
+    <title>KAYARN</title>
+    <meta content="Vonge is a portfolio site template for Jekyll" name="description">
+  
+    <link href="/" rel="canonical">
+  
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="Vonge" name="twitter:title">
+    <meta content="Vonge is a portfolio site template for Jekyll" name="twitter:description">
+    <meta content="/images/01.jpg" name="twitter:image:src">
+  
+    <!-- Facebook OpenGraph -->
+    <meta content="Vonge" property="og:title">
+    <meta content="Vonge is a portfolio site template for Jekyll" property="og:description">
+    <meta content="/images/01.jpg" property="og:image">
+  
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet">
+  
+    <!-- Ionicons -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+  
+    <link data-cms-original-href="assets/main.css" href="assets/main.css" rel="stylesheet">
   </head>
-  <body data-new-gr-c-s-check-loaded="14.1022.0" data-gr-ext-installed="" class="dark">
-    <!-- Main Container -->
-    <div class="main-conteiner">
-      <!-- Aside -->
-      <div class="aside">
-        <div class="logo">
-          <a href="#">AGENT87</a>
-        </div>
-        <!-- Nav Toggler -->
-        <div class="nav-toggler">
-          <span></span>
-        </div>
-        <!-- Nav -->
-        <ul class="nav">
-          <li>
-            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
-          </li>
-          <li>
-            <a href="#about"><i class="fa fa-user"></i> About</a>
-          </li>
-          <li>
-            <a href="#services"><i class="fa fa-list"></i>Services</a>
-          </li>
-          <li>
-            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
-          </li>
-          <li>
-            <a href="#blog"><i class="fa fa-envelope"></i>Blog</a>
-          </li>
-          <li>
-            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
-          </li>
-        </ul>
-        <!-- End Nav -->
-        <!-- Copyright -->
-        <div class="copyright-text">&copy; Kayonga Arnaud 2021</div>
-        <!-- End Copyright -->
-      </div>
-      <!-- End Aside -->
-
-      <!-- Main Content -->
-      <div class="main-content">
-        <!-- Home Section -->
-        <section class="home section active" id="home">
-          <div class="container">
-            <div class="intro">
-              <img src="images/myprofile.jpg" alt="Profile" class="shadow-dark" />
-              <h1>Arnaud Kayonga</h1>
-              <p>I'm a Software Engineer</p>
-              <div class="social-links">
-                <a href="http://www.twitter.com/kayarn_"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
+  
+  <body>
+  
+      
+  
+      <!-- begin header -->
+  <header class="c-header">
+    <div class="container">
+      <div class="row">
+        <div class="c-header__inner">
+  
+          <div class="logo">
+            <a class="logo__link" href="/">
+            
+              <img alt="Vonge" class="logo__image" data-cms-original-src="assets/images/logo.svg" src="assets/images/logo.svg">
+            
+            </a>
           </div>
-        </section>
-        <!-- End Home Section -->
-
-        <!-- About Section -->
-        <section class="about section" id="about">
-          <div class="container">
-            <div class="row">
-              <div class="section-title ">
-                <h2>About Me</h2>
+  
+          <nav class="main-nav">
+            <div class="main-nav__box">
+  
+              <div class="nav__icon-close">
+                <i class="ion ion-md-close"></i>
               </div>
+  
+              <div class="nav__title">Menu</div>
+  
+                <ul class="nav__list list-reset">
+  
+                
+                  
+                  <li class="nav__item">
+                    <a class="nav__link active-link" href="/">Home</a>
+                  </li>
+                  
+                
+                  
+                  <li class="nav__item">
+                    <a class="nav__link" href="projects.html">Projects</a>
+                  </li>
+                  
+                
+                  
+                  <li class="nav__item">
+                    <a class="nav__link" href="/blog/">Blog</a>
+                  </li>
+                  
+                
+                  
+                  <li class="nav__item dropdown">
+                    <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                    <div class="dropdown-menu">
+                      
+                        <a class="nav__link" href="/about/">About</a>
+                      
+                        <a class="nav__link" href="/elements/">Resume</a>
+                      
+                    </div>
+                  </li>
+  
+                  
+                
+  
+              </ul>
             </div>
-            <div class="row p-0">
-              <div class="about-content pl-15">
-                <div class="row">
-                  <div class="about-text ">
-                    <h3>I'm Kayonga Arnaud as <span>Software Engineer</span></h3>
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Dolorum, soluta harum quidem commodi magnam autem adipisci
-                      distinctio nostrum corporis sunt aliquid id debitis
-                      sapiente deleniti architecto assumenda error, sed ipsum.
-                      sapiente deleniti architecto assumenda error, sed ipsum.
-                    </p>
-                  </div>
-                </div>
-                <div class="row p-15">
-                  <div class="personal-info">
-                    <div class="row">
-                      <div class="info-item">
-                        <p>Birthday : <span>14 September</span></p>
-                      </div>
-                      <div class="info-item ">
-                        <p>Age : <span>22</span></p>
-                      </div>
-                      <div class="info-item ">
-                        <p>Website : <span>agent87.github.io</span></p>
-                      </div>
-                      <div class="info-item ">
-                        <p>Email : <span>arnaulkayonga1@gmail.com</span></p>
-                      </div>
-                      <div class="info-item ">
-                        <p>Phone : <span>+250783089337</span></p>
-                      </div>
-                      <div class="info-item ">
-                        <p>
-                          Location :
-                          <span>Kigali, Rwanda</span>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="buttons ">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#" class="btn">Hire Me</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skills">
-                    <div class="row">
-                      <div class="skill-item">
-                        <h5>Python</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 66%"></div>
-                          <div class="skill-percent">66%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item">
-                        <h5>PostgreSQL</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 46%"></div>
-                          <div class="skill-percent">46%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item">
-                        <h5>Tensorflow 2.0</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 46%"></div>
-                          <div class="skill-percent">46%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item">
-                        <h5>Solid Edge</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 60%"></div>
-                          <div class="skill-percent">60%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item">
-                        <h5>Django Framework</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 68%"></div>
-                          <div class="skill-percent">68%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item">
-                        <h5>Flask</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 80%"></div>
-                          <div class="skill-percent">80%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row pl-15">
-                  <div class="education pr-15">
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-                      <div class="timeline-box">
-                        <div class="timeline shadow-dark">
-                          <!-- Timeline-item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i>2021-2023</h6>
-                            <h4 class="timeline-title">Houston Community College</h4>
-                            <p class="timeline-text duration">Houston, TX U.S</p>
-                            <p class="timeline-text">Associate Degree in Artificial Inteligence.</p>
-                          </div>
-                          <!-- End Timeline-item -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="experience pl-15">
-                    <h3 class="title">Experience</h3>
-                    <div class="row">
-                      <div class="timeline-box">
-                        <div class="timeline shadow-dark">
-                          <!-- Timeline-item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i>Jun 2021 - Present. Kigali, Rwanda.</h6>
-                            <h4 class="timeline-title">Ewawe Digital Real Estate Group</h4>
-                            <p class="timeline-text">Developed and maintained parking managment solution using machine learning and django framework for admistrator dashboard</p>
-                          </div>
-                          <!-- End Timeline-item -->
-                          <!-- Timeline-item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i>March 2019 - Aug 2019. Kigali, Rwanda.</h6>
-                            <h4 class="timeline-title">Westerwelle Startup Haus Kigali</h4>
-                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo alias assumenda nulla ipsam. Ducimus unde deserunt expedita quaerat, esse explicabo itaque ab, dolorem, totam quidem blanditiis. Facilis, alias repudiandae?</p>
-                          </div>
-                          <!-- End Timeline-item -->
-                          <!-- Timeline-item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i>Jun 2017 - Dec 2018. Kigali, Rwanda.</h6>
-                            <h4 class="timeline-title">Fablab Rwanda</h4>
-                            <p class="timeline-text">intern Programmer, 3d Designing & Printing, Space Research and Deep learning</p>
-                          </div>
-                          <!-- End Timeline-item -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  
+            <!--bookshop-live name(social-link.jekyll.html) params() context() -->
+            
+  <div class="social">
+    <ul class="social__list list-reset">
+      
+      <li class="social__item">
+        <a aria-label="twitter icon" class="social__link" href="https://twitter.com" rel="noopener" target="_blank"><i class="ion ion-logo-twitter"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="github icon" class="social__link" href="https://github.com" rel="noopener" target="_blank"><i class="ion ion-logo-github"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="pinterest icon" class="social__link" href="https://pinterest.com" rel="noopener" target="_blank"><i class="ion ion-logo-pinterest"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="youtube icon" class="social__link" href="https://youtube.com" rel="noopener" target="_blank"><i class="ion ion-logo-youtube"></i></a>
+      </li>
+      
+    </ul>
+  </div>
+  
+            <!--bookshop-live end-->
+          </nav>
+  
+          <div class="nav-button">
+            <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
           </div>
-        </section>
-        <!-- End About Section -->
-
-        <!-- Service Section -->
-        <section class="service section" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="section-title">
-                <h2>Services</h2>
-              </div>
-            </div>
-            <div class="row p-0">
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-laptop"></i></div>
-                  <h4>Machine Learning</h4>
-                  <p>Research, implementation and interpretation of machine learning models and published papers.</p>
-                </div>
-              </div>
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-photo"></i></div>
-                  <h4>CAD Design</h4>
-                  <p>3d Design services from concept to production optimisation including reverse engineering.</p>
-                </div>
-              </div>
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-code"></i></div>
-                  <h4>Web Development</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur exercitationem ipsa fugiat aliquid, odit aspernatur.</p>
-                </div>
-              </div>
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-film"></i></div>
-                  <h4>CNC Programming</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur exercitationem ipsa fugiat aliquid, odit aspernatur.</p>
-                </div>
-              </div>
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-paint-brush"></i></div>
-                  <h4>3D Printing</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur exercitationem ipsa fugiat aliquid, odit aspernatur.</p>
-                </div>
-              </div>
-              <div class="service-item">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-rocket"></i></div>
-                  <h4>Finance Metrics</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur exercitationem ipsa fugiat aliquid, odit aspernatur.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End Service Section -->
-
-        <!-- Portfolio Section -->
-        <section class="portfolio section" id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="section-title">
-                <h2>Portfolio</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="portfolio-filter">
-                <button type="button" class="active" data-filter="all">All</button>
-                <button type="button" data-filter="Machine-Learning">Machine-Learning</button>
-                <button type="button" data-filter="web-design">Web-Development</button>                
-                <button type="button" data-filter="Software-Engineering">Software-Engineering</button>
-                <button type="button" data-filter="Robotics">Robotics</button>
-                <button type="button" data-filter="Iot">Iot</button>
-                <button type="button" data-filter="Data-Science">Data-Science</button>
-                <button type="button" data-filter="Miscellaneous">Miscellaneous</button>
-                <button type="button" data-filter="Manufacturing">Manufacturing</button>
-                <button type="button" data-filter="Finance-Models">Finance-Models</button>                
-                <button type="button" data-filter="CNC-Programming">CNC-Programming</button>                
-                <button type="button" data-filter="CAD-Design">CAD-Design</button>
-              </div>
-            </div>
-            <div class="row portfolio-items p-0">
-              <!-- Portfolio Item -->
-              <div class="portfolio-item p-15" data-category= "Machine-Learning">
-                <div class="portfolio-item-inner">
-                  <div class="portfolio-img">
-                    <img src="images/1.png" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Object Detection Using YoloV3</h4>
-                    <div class="icon"><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item p-15" data-category="Machine-Learning">
-                <div class="portfolio-item-inner">
-                  <div class="portfolio-img">
-                    <img src="images/2.png" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Automatic Car Plate Detection</h4>
-                    <div class="icon"><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item p-15" data-category="CAD-Design">
-                <div class="portfolio-item-inner">
-                  <div class="portfolio-img">
-                    <img src="images/3.png" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Reverse Engineering 3D Products</h4>
-                    <div class="icon"><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item p-15" data-category="Data-Science">
-                <div class="portfolio-item-inner">
-                  <div class="portfolio-img">
-                    <img src="images/4.png" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Garming Data Analytics with R</h4>
-                    <div class="icon"><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item p-15" data-category="web-dev">
-                <div class="portfolio-item-inner">
-                  <div class="portfolio-img">
-                    <img src="images/5.png" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Web Design</h4>
-                    <div class="icon"><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-            </div>
-          </div>
-        </section>
-        <!-- End Portfolio Section -->
-
-        <!-- Blog Section -->
-        <section class="blog section" id="blog">
-          <div class="container">
-            <div class="row">
-              <div class="section-title">
-                <h2>Lastest Blog</h2>
-              </div>
-            </div>
-            <div class="row p-0">
-              <div class="blog-item p-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/1.png" alt="blog">
-                    <div class="blog-date">
-                      4 July 2021
-                    </div>
-                  </div>
-                  <div class="blog-info ">
-                    <h4 class="blog-title">Django Based Car Parking Managment Dashboard</h4>
-                    <p class="blog-description">Django built dashboard for parking space managment powered withcomputer vision </p>
-                    <p class="blog-tags">Tags : <a href="#">Django</a>, <a href="#">Django-REST-Framework</a>, <a href="#">Heroku</a>, <a href="#">PostgreSQL</a>, <a href="#">Python</a>, <a href="#">HTML</a>, <a href="#">CSS</a>,<a href="#">CSS</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-item p-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/1.png" alt="blog">
-                    <div class="blog-date">
-                      4 Jun 2018
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Password Guessing Genetic Algorithm</h4>
-                    <p class="blog-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem vel ea! Placeat obcaecati dolore inventore itaque id, beatae harum repudiandae, minus.</p>
-                    <p class="blog-tags">Tags : <a href="#">Python</a>, <a href="#">Machine-Learning</a>, <a href="#">Genetic Algorithm</a>,<a href="#">Metaheuristic</a>,<a href="#">css</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-item p-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/1.png" alt="blog">
-                    <div class="blog-date">
-                      4 Jun 2020
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Responsive Web Design</h4>
-                    <p class="blog-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem vel ea! Placeat obcaecati dolore inventore itaque id, beatae harum repudiandae, minus.</p>
-                    <p class="blog-tags">Tags : <a href="#">Html</a>, <a href="#">css</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-item p-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/1.png" alt="blog">
-                    <div class="blog-date">
-                      4 Jun 2021
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Responsive Web Design</h4>
-                    <p class="blog-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem vel ea! Placeat obcaecati dolore inventore itaque id, beatae harum repudiandae, minus.</p>
-                    <p class="blog-tags">Tags : <a href="#">Html</a>, <a href="#">css</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-        <!-- End Blog Section -->
-
-        <!-- Contact Section -->
-        <section class="contact section" id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="section-title">
-                <h2>Contact Me</h2>
-              </div>
-            </div>
-            <div class="row">
-              <!-- Contact Info Item -->
-              <div class="contact-info-item">
-                <div class="icon"><i class="fa fa-phone"></i></div>
-                <h4>Call Me On</h4>
-                <p>+(250)783089337</p>
-              </div>
-              <!-- End Contact Info Item -->
-              <!-- Contact Info Item -->
-              <div class="contact-info-item">
-                <div class="icon"><i class="fa fa-map-marker"></i></div>
-                <h4>Address</h4>
-                <p>KG 21 St, Kigali, Rwanda.</p>
-              </div>
-              <!-- End Contact Info Item -->
-              <!-- Contact Info Item -->
-              <div class="contact-info-item">
-                <div class="icon"><i class="fa fa-envelope"></i></div>
-                <h4>Email</h4>
-                <p>arnaulkayonga1@gmail.com</p>
-              </div>
-              <!-- End Contact Info Item -->
-            </div>
-            <!-- Contact Form -->
-            <div class="row">
-              <form action="" class="contact-form">
-                <div class="row">
-                  <div class="form-item col-6 pr-15">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                  </div>
-                  <div class="form-item col-6 pl-15">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Subject">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12">
-                    <div class="form-group">
-                      <Textarea class="form-control" placeholder="Your Message....."></Textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12">
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
-          </div>
-        </section>
-        <!-- End Contact Section -->
-
-
-      </div>
-      <!-- End Main Content -->
-    </div>
-    <!-- End Main Container -->
-
-    <!-- Lighbox -->
-    <div class="lightbox">
-      <div class="lightbox-content">
-        <div class="lightbox-close">&times;</div>
-        <img src="images/1.png" class="lightbox-img" alt="">
-        <div class="lightbox-caption">
-          <div class="caption-text">Web Design</div>
-          <div class="caption-counter">1 of 6</div>
+  
         </div>
       </div>
-      <div class="lightbox-controls">
-        <div class="next" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
-        <div class="prev" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+    </div>
+  </header>
+  <!-- end header -->
+  
+      
+  
+      <!-- 
+          Bookshop components are accessed using the bookshop tag, 
+          using the same syntax as the standard Jekyll include tag.
+      -->
+      <!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+            
+  <div class="c-page">
+  
+  
+      <!--bookshop-live name(hero/hero.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
+            <!-- begin hero -->
+  
+  <section class="c-hero animate">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="c-hero__inner">
+  
+            <div class="c-hero__left">
+              <h1 class="c-hero__title">Hi there, I am Arnaud Kayonga</h1>
+              <div class="c-hero__description"><p><strong>Software Engineer</strong> and <strong>DIY Amateur</strong> from Kigali. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork.</p></div>
+              <div class="c-hero__btn">
+                <a class="cta-button c-button c-button--primary c-button--small" href="#contact">Get in touch</a>
+                <a class="works-button c-button c-button--secondary c-button--small" href="#projects">
+                  <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> See my works
+                </a>
+              </div>
+            </div>
+  
+            <div class="c-hero__right">
+              <div class="c-hero__image">
+                <img alt="" data-cms-original-src="assets/images/01.jpg" loading="lazy" src="assets/images/01.jpg">
+              </div>
+            </div>
+  
+          </div>
+        </div>
       </div>
     </div>
-    <!-- End Lighbox -->
-
-    <!-- Live Style Switcher Color -->
-    <div class="style-switcher">
-
-      <div class="toggle-style-switcher">
-        <i class="fa fa-cog fa-spin"></i>
+  </section>
+  <!-- end hero -->
+            <!--bookshop-live end-->
+  
+      <!--bookshop-live name(projects-section/projects-section.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+            <!-- begin projects -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="contaniner__inner animate">
+  
+            <div class="section__info">
+              <div class="section__head">
+                <h2 class="section__title">Latest Works</h2>
+                <a class="section__link" href="/projects">View all <i class="ion ion-md-arrow-forward"></i></a>
+              </div>
+              <div class="section__description"><p>I show only my best works built completely with passion, simplicity, and creativity!</p></div>
+            </div>
+  
+            
+            <div class="row">
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[0]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/green-plant">
+        <img alt="Green Plant" data-cms-original-src="assets/images/project-9.jpg" loading="lazy" src="assets/images/project-9.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">Green Plant</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
       </div>
-
-      <h5>Style Switcher</h5>
-      <ul>
-        <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
-        <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
-        <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
-        <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
-        <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
-      </ul>
-
-      <h5>Body Skin</h5>
-      <label>
-        <input type="radio" name="body-style" class="body-skin" value="light" > Light
-      </label>
-      <label>
-        <input type="radio" name="body-style" class="body-skin" value="dark" checked="true"> Dark
-      </label>
     </div>
-    <!-- End Live Style Switcher Color -->
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[1]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/antelope-anyon">
+        <img alt="Antelope Canyon" data-cms-original-src="assets/images/project-8.jpg" loading="lazy" src="assets/images/project-8.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">Antelope Canyon</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[2]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/quiet-lake">
+        <img alt="Quiet Lake" data-cms-original-src="assets/images/project-7.jpg" loading="lazy" src="assets/images/project-7.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">Quiet Lake</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[3]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/the-rocks">
+        <img alt="The rocks" data-cms-original-src="assets/images/project-6.jpg" loading="lazy" src="assets/images/project-6.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">The rocks</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[4]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/big-airplane">
+        <img alt="Big airplane" data-cms-original-src="assets/images/project-5.jpg" loading="lazy" src="assets/images/project-5.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">Big airplane</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[5]) -->
+            
+  <article class="c-project-card col col-4 col-d-6 col-t-12">
+    <div class="c-project-card__content">
+      <a class="c-project-card__image" href="/project/mountains">
+        <img alt="Mountains" data-cms-original-src="assets/images/project-4.jpg" loading="lazy" src="assets/images/project-4.jpg">
+      </a>
+      <div class="c-project-card__info">
+        <div class="c-project-card__info-wrap">
+          <h3 class="c-project-card__title">Mountains</h3>
+        </div>
+        <div class="c-project-card__info-wrap">
+          
+          <div class="c-project-card__subtitle">Photography</div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+            <!--bookshop-live end-->
+                
+              
+                
+              
+                
+              
+                
+              
+            </div>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end projects -->
+            <!--bookshop-live end-->
+  
 
-
-    <!-- Template Js -->
-    <script src="js/style.js"></script>
-    <!-- Style Switcher -->
-    <script src="js/styleSwitcher.js"></script>
-  </body>
-</html>
+      <!--bookshop-live name(blog-section/blog-section.jekyll.html) params(bind=block) context(block=content_blocks[3]) -->
+            <!-- begin blog -->
+  <section class="section blog">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="contaniner__inner animate">
+  
+            <div class="section__info">
+              <div class="section__head">
+                <h2 class="section__title">Recent Posts</h2>
+                <a class="section__link" href="/blog">View all <i class="ion ion-md-arrow-forward"></i></a>
+              </div>
+              <div class="section__description"><p>Vonge blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!</p> </div>
+            </div>
+  
+            
+            <div class="row">
+              
+                
+                  <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[0]) -->
+            
+  <div class="c-blog-card col col-4 col-d-6 col-t-12">
+    <div class="c-blog-card__inner">
+  
+      
+      <div class="c-blog-card__image-wrap">
+        <a class="c-blog-card__image" href="/blog/that-which-does-not-kill-us-makes-us-stronger">
+          <img alt="That which does not kill us makes us stronger" data-cms-original-src="/images/post-1.jpg" loading="lazy" src="/images/post-1.jpg?_cchid=244c465237f65c19df0810b494cbfebf">
+        </a>
+      </div>
+      
+  
+      <div class="c-blog-card__content">
+  
+        
+        <div class="c-blog-card__tags-box">
+          
+          <a class="c-blog-card__tag" href="/tag/travel">travel</a>
+          
+          <a class="c-blog-card__tag" href="/tag/lifestyle">lifestyle</a>
+          
+        </div>
+        
+  
+        <h2 class="c-blog-card__title">
+          <a href="/blog/that-which-does-not-kill-us-makes-us-stronger">That which does not kill us makes us stronger</a>
+        </h2>
+  
+        <p class="c-blog-card__excerpt">
+          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
+        </p>
+  
+        <div class="c-blog-card__meta">
+          <div class="c-blog-card__author-image">
+            <img alt="Arnaud Kayonga" data-cms-original-src="/images/avatar.jpg" loading="lazy" src="/images/avatar.jpg?_cchid=8995f27fa92e37f2a94b29daa6001261">
+          </div>
+          <div class="c-blog-card__info">
+            <div class="c-blog-card__author-name">Arnaud Kayonga</div>
+            <span class="c-blog-card__date"><time datetime="2022-1-3T12:01:35+00:00">3 Jan 2022</time></span>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+            <!--bookshop-live end-->
+                
+                  <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[1]) -->
+            
+  <div class="c-blog-card col col-4 col-d-6 col-t-12">
+    <div class="c-blog-card__inner">
+  
+      
+      <div class="c-blog-card__image-wrap">
+        <a class="c-blog-card__image" href="/blog/do-what-you-can-with-what-you-have-where-you-are">
+          <img alt="Do what you can, with what you have, where you are" data-cms-original-src="/images/post-2.jpg" loading="lazy" src="/images/post-2.jpg?_cchid=835eaaa1997fa78211cb91482513a9e8">
+        </a>
+      </div>
+      
+  
+      <div class="c-blog-card__content">
+  
+        
+        <div class="c-blog-card__tags-box">
+          
+          <a class="c-blog-card__tag" href="/tag/life">life</a>
+          
+          <a class="c-blog-card__tag" href="/tag/story">story</a>
+          
+        </div>
+        
+  
+        <h2 class="c-blog-card__title">
+          <a href="/blog/do-what-you-can-with-what-you-have-where-you-are">Do what you can, with what you have, where you are</a>
+        </h2>
+  
+        <p class="c-blog-card__excerpt">
+          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
+        </p>
+  
+        <div class="c-blog-card__meta">
+          <div class="c-blog-card__author-image">
+            <img alt="Arnaud Kayonga" data-cms-original-src="/images/avatar.jpg" loading="lazy" src="/images/avatar.jpg?_cchid=8995f27fa92e37f2a94b29daa6001261">
+          </div>
+          <div class="c-blog-card__info">
+            <div class="c-blog-card__author-name">Arnaud Kayonga</div>
+            <span class="c-blog-card__date"><time datetime="2018-11-12T12:01:35+00:00">12 Nov 2018</time></span>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+            <!--bookshop-live end-->
+                
+                  <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[2]) -->
+            
+  <div class="c-blog-card col col-4 col-d-6 col-t-12">
+    <div class="c-blog-card__inner">
+  
+      
+      <div class="c-blog-card__image-wrap">
+        <a class="c-blog-card__image" href="/blog/strive-not-to-be-a-success-but-rather-to-be-of-value">
+          <img alt="Strive not to be a success, but rather to be of value" data-cms-original-src="/images/post-3.jpg" loading="lazy" src="/images/post-3.jpg?_cchid=9983d484ace4b8f310239f1d7065bca6">
+        </a>
+      </div>
+      
+  
+      <div class="c-blog-card__content">
+  
+        
+        <div class="c-blog-card__tags-box">
+          
+          <a class="c-blog-card__tag" href="/tag/life">life</a>
+          
+          <a class="c-blog-card__tag" href="/tag/notes">notes</a>
+          
+        </div>
+        
+  
+        <h2 class="c-blog-card__title">
+          <a href="/blog/strive-not-to-be-a-success-but-rather-to-be-of-value">Strive not to be a success, but rather to be of value</a>
+        </h2>
+  
+        <p class="c-blog-card__excerpt">
+          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
+        </p>
+  
+        <div class="c-blog-card__meta">
+          <div class="c-blog-card__author-image">
+            <img alt="Arnaud Kayonga" data-cms-original-src="/images/avatar.jpg" loading="lazy" src="/images/avatar.jpg?_cchid=8995f27fa92e37f2a94b29daa6001261">
+          </div>
+          <div class="c-blog-card__info">
+            <div class="c-blog-card__author-name">Arnaud Kayonga</div>
+            <span class="c-blog-card__date"><time datetime="2018-11-11T12:01:35+00:00">11 Nov 2018</time></span>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+            <!--bookshop-live end-->
+                
+              
+            </div>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end blog -->
+            <!--bookshop-live end-->
+  
+      <!--bookshop-live name(newsletter/newsletter.jekyll.html) params(bind=block) context(block=content_blocks[4]) -->
+            <!-- begin subscribe -->
+  
+  <section class="c-subscribe section">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+  
+          <div class="c-subscribe__inner">
+            <div class="c-subscribe__info">
+              <h3 class="c-subscribe__title">Join my mailing list</h3>
+              <div class="c-subscribe__subtitle">
+                <span id="ityped"></span>
+              </div>
+            </div>
+  
+            <form action="//frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" class="c-subscribe__form validate" id="membedded-subscribe-form" method="POST" name="membedded-subscribe-form" novalidate="" target="_blank">
+              <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+              <input class="c-subscribe__form-email required email" id="mce-EMAIL" name="EMAIL" placeholder="Your email address" type="text">
+              <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" name="subscribe" type="submit">Subscribe</button>
+            <input name="_encrypted_details" type="hidden" value="7c305b930235095bcf7513a09ac92696"></form>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end subscribe -->
+  
+  <script>
+    var itype_text = ['Get weekly coding tutorial, inspiration, updates and, cool stuff!'];
+  </script>
+            <!--bookshop-live end-->
+  
+      <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[5]) -->
+            <!-- begin contact -->
+  
+  <div class="c-contact-form" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+  
+          <div class="c-contact-form__form-box">
+            <div class="c-contact-form__contact-head">
+              <h2 class="c-contact-form__contact-title">Get in touch</h2>
+              <p class="c-contact-form__contact-description">I do value honest feedback in any shape or form. Plus I would be great to hear some projects you'd like me work on.</p>
+            </div>
+            <form action="" class="c-contact-form__form" method="POST">
+              
+              <div class="c-contact-form__form-group">
+                <label class="c-contact-form__form-label screen-reader-text" for="form-name">Your Name(If you will)</label>
+                <input class="c-contact-form__form-input" id="form-name" name="name" placeholder="Your name..." required="" type="text">
+              </div>
+              <div class="c-contact-form__form-group">
+                <label class="c-contact-form__form-label screen-reader-text" for="form-email">Your Email</label>
+                <input class="c-contact-form__form-input" id="form-email" name="_replyto" placeholder="Your email..." required="" type="email">
+              </div>
+              <div class="c-contact-form__form-group">
+                <label class="c-contact-form__form-label screen-reader-text" for="form-text">Your Message</label>
+                <textarea class="c-contact-form__form-input" id="form-text" name="text" placeholder="Your message..." required="" rows="9"></textarea>
+              </div>
+              <div class="c-contact-form__form-group c-contact-form__form-group--button">
+                <button class="c-button c-button--primary c-button--large" type="submit">Send now</button>
+              </div>
+            <input name="_encrypted_details" type="hidden" value="7c306d890f784b4f836a03f6c5d21e93aa6f2ec110e34cda2208605a"></form>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+            <!--bookshop-live end-->
+  
+  
+  </div>
+  
+            <!--bookshop-live end-->
+  
+      <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+  
+      <!-- begin footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+  
+          <!--bookshop-live name(social-link.jekyll.html) params() context() -->
+            
+  <div class="social">
+    <ul class="social__list list-reset">
+      
+      <li class="social__item">
+        <a aria-label="twitter icon" class="social__link" href="https://twitter.com" rel="noopener" target="_blank"><i class="ion ion-logo-twitter"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="github icon" class="social__link" href="https://github.com" rel="noopener" target="_blank"><i class="ion ion-logo-github"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="pinterest icon" class="social__link" href="https://pinterest.com" rel="noopener" target="_blank"><i class="ion ion-logo-pinterest"></i></a>
+      </li>
+      
+      <li class="social__item">
+        <a aria-label="youtube icon" class="social__link" href="https://youtube.com" rel="noopener" target="_blank"><i class="ion ion-logo-youtube"></i></a>
+      </li>
+      
+    </ul>
+  </div>
+  
+            <!--bookshop-live end-->
+  
+          <ul class="footer_nav list-reset">
+            
+            <li class="footer_nav__item">
+              <a class="footer_nav__link" href="/">Home</a>
+            </li>
+            
+            <li class="footer_nav__item">
+              <a class="footer_nav__link" href="/projects/">Projects</a>
+            </li>
+            
+            <li class="footer_nav__item">
+              <a class="footer_nav__link" href="/elements/">Elements</a>
+            </li>
+            
+            <li class="footer_nav__item">
+              <a class="footer_nav__link" href="/about/">About</a>
+            </li>
+            
+            <li class="footer_nav__item">
+              <a class="footer_nav__link" href="/blog/">Blog</a>
+            </li>
+            
+          </ul>
+  
+          <div class="copyright"><p> 2021 © <a href="/">KAYARN</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p></div>
+  
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  
+      <!--
+          load the live component for CloudCannon live previews.
+      -->
+      <script>
+  (function(){
+    const bookshopLiveSetup = (CloudCannon) => {
+      CloudCannon.enableEvents();
+  
+      const head = document.querySelector('head');
+      const script = document.createElement('script');
+      script.src = `/_cloudcannon/bookshop-live.js`;
+      script.onload = function() {
+        window.bookshopLive = new window.BookshopLive({
+          remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
+        });
+        const updateBookshopLive = async () => {
+          const frontMatter = await CloudCannon.value();
+          const options = window.bookshopLiveOptions || {};
+          await window.bookshopLive.update({page: frontMatter}, options);
+          CloudCannon?.refreshInterface?.();
+        }
+        document.addEventListener('cloudcannon:update', updateBookshopLive);
+        updateBookshopLive();
+      }
+      head.appendChild(script);
+    }
+  
+    document.addEventListener('cloudcannon:load', function (e) {
+      bookshopLiveSetup(e.detail.CloudCannon);
+    });
+  })();
+  </script>
+  
+      <script data-cms-original-src="js/scripts.js" src="assets/js/scripts.js"></script>
+      <script data-cms-original-src="js/common.js" src="assets/js/common.js"></script>
+  
+  </body></html>
