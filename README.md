@@ -1,8 +1,8 @@
 ### Hey there, I'm __Thinam__! 👋 :computer:
 
-I'm **Thinam Tamang**, a **Deep Learning** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
+I'm **Kayonga Arnaud**, a **Deep Learning** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ThinamXx" alt="ThinamXx" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=agent87" alt="ThinamXx" /> </p>
 
 **Publications:**  
 - [**Toward insights on antimicrobial selectivity of host defense peptides via machine learning model interpretation**](https://doi.org/10.1016/j.ygeno.2021.08.023)  
