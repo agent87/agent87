@@ -1,24 +1,19 @@
 ### Hey there, I'm __Thinam__! 👋 :computer:
 
-I'm **Kayonga Arnaud**, a **Deep Learning** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
+I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=agent87" alt="ThinamXx" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=agent87" alt="Agent87" /> </p>
 
-**Publications:**  
-- [**Toward insights on antimicrobial selectivity of host defense peptides via machine learning model interpretation**](https://doi.org/10.1016/j.ygeno.2021.08.023)  
+**Latest Publications:**  
+- [**Extracting CSV data from PDF files with Python**](https://www.kayarn.com)  
 
 **Updates:**
-- 🔭 I’m currently working as a Research Assistant at [**Center of Data Mining and Biomedical Informatics**](https://mt.mahidol.ac.th/en/departments/center-of-data-mining-and-biomedical-informatics-2/)
-- 🔭 I’m also working on [Machine Learning and Deep Learning](https://github.com/ThinamXx/MachineLearning_DeepLearning.git)
-- 🔭 I’m also working on a **Research Paper of Bioinformatics and Machine Learning**
-- 🌱 I’m currently learning from [Fast.ai](https://course.fast.ai/#) and reading Books and Online materials.
-- 👯 I’m looking to collaborate on **Data Science**, **Machine Learning** and **Deep Learning**
-- 📫 How to reach me: [Connect/Message](https://www.linkedin.com/in/thinam-tamang-3b12831a2/)
+- 🔭 I’m currently working as a Chief Technical Officer at [**Juru Systems**](https://www.leaprlabs.com)
 
 
 ### Find me around:
-- [LinkedIn](https://www.linkedin.com/in/thinam-tamang-3b12831a2/) :earth_asia:
-- [Mail](https://www.linkedin.com/in/thinam-tamang-3b12831a2/) :email:
+- [LinkedIn](https://www.linkedin.com/in/arnaud-kayonga-5910a813a/) 🌍:
+- [Mail](arnauldkayonga1@gmail.com) email:
 
 ## **Language and Tools**
 
