@@ -4,11 +4,11 @@ I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Prac
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=agent87" alt="Agent87" /> </p>
 
-**Latest Publications:**  
-- [**Extracting CSV data from PDF files with Python**](https://www.kayarn.com)  
+<!-- **Latest Publications:**  
+- [**Extracting CSV data from PDF files with Python**](https://www.kayarn.com)   -->
 
 **Updates:**
-- 🔭 I’m currently working as a Chief Technical Officer at [**Juru Systems**](https://www.leaprlabs.com)
+- 🔭 I’m currently working on NLP applications [**Mbaza NLP**](https://www.mbaza.org)
 
 
 ### Find me around:
