@@ -17,7 +17,7 @@ I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Prac
 
 ## **Language and Tools**
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=agent87&theme=radical&hide=javascript,css,html)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=agent87&theme=radical&hide=javascript,css,html,scss,tex)
 ![Thinam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=agent87&hide=prs,issues,contribs?username=agent87&count_private=true?username=agent87&show_icons=true&theme=radical)
 
 
