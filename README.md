@@ -1,6 +1,6 @@
 ### Hey there, I'm __Arnaud__! 👋 💻:
 
-I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
+I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Practitioner** and **Learner** based in Kigali, Rwanda. I'm here to solve things, Learning a lot in the Process.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=agent87" alt="Agent87" /> </p>
 
