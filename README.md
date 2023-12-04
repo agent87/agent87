@@ -8,7 +8,7 @@ I'm **Kayonga Arnaud**, a **Software Developer** and **Machine Learning** **Prac
 - [**Extracting CSV data from PDF files with Python**](https://www.kayarn.com)   -->
 
 **Updates:**
-- 🔭 I’m currently working on python applications @[**LEAPR LABS**](https://www.leaprlabs.rw)
+- 🔭 I’m currently working on python applications @[**XPower**](https://meshpower.co.rw/)
 - I am also a core member at @[**Mbaza NLP**](https://www.mbaza.org) working on NLP for Africa languages
 - Python Software Foundation Member
 
